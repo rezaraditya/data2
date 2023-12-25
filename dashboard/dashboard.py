@@ -101,7 +101,7 @@ bystate_df = create_bystate_df(main_df)
 rfm_df = create_rfm_df(main_df)
 
 # Complementing the Dashboard with Data Visualization
-st.header(':sparkles: Dicoding Collection Dashboard :sparkles:')
+st.header(':sparkles: Reza Raditya Dashboard :sparkles:')
 
 st.subheader('Daily Orders')
 
@@ -411,4 +411,4 @@ for i, value in enumerate(desc_monetary_rfm_df['monetary']):
 st.pyplot(fig)
 
 
-st.caption('Copyright (c) Dicoding 2023 | Author: Nurkholiq Agani Hafid')
+st.caption('Reza Raditya')
